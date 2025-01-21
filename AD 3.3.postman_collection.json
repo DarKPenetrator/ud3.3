@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "05274239-faa9-4e1e-bbf3-d2452f9a3024",
+		"name": "AD 3.3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41010051"
+	},
+	"item": [
+		{
+			"name": "Ejer1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/alumno/1/notas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"alumno",
+						"1",
+						"notas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejer2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ejer3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
